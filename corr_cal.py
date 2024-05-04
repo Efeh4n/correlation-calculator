@@ -26,7 +26,7 @@ def correlation_calculator(data_x, data_y):
         denominator = (sum_sqr_list_x * sum_sqr_list_y)**0.5
 
         return  numerator/denominator
-print(correlation_calculator(data_x, data_y))
+print("correlation :", correlation_calculator(data_x, data_y))
 
 
 
